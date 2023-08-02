@@ -1,0 +1,157 @@
+#myproject {
+  height: 100vh;
+  background: radial-gradient(white, black);
+
+
+
+}
+
+@media screen and (max-width:425px) {
+  #myproject {
+    height: 100vh;
+    background: radial-gradient(#eee, #0a0000);
+    width: 300px;
+
+  }
+}
+
+#head1 {
+  font-weight: bold;
+}
+
+#body {
+  padding-top: 100px;
+}
+
+form {
+  display: inline;
+}
+
+button {
+  margin: 3px;
+  cursor: pointer;
+}
+
+.to-do-app {
+  box-sizing: border-box;
+  width: 550px;
+  margin: 50px auto 0 auto;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #0b0b0b;
+
+}
+
+.header {
+  background: url(../public/images/desktop-wallpaper-aesthetic-igaesthetic-emojis-emojiaesthetic-space-doodles-thumbnail.jpg);
+  padding: 7px;
+  border-radius: 3px 3px 0 0;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+  color: white;
+  font-weight: lighter;
+}
+
+.create-new {
+  border-top: 1px solid #080808;
+  width: 100%;
+}
+
+#input1 {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+}
+
+button {
+  width: 100%;
+  background: url(../public/images/desktop-wallpaper-aesthetic-igaesthetic-emojis-emojiaesthetic-space-doodles-thumbnail.jpg);
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 18px;
+  margin: 0;
+  border: none;
+  border-left: 1px solid;
+
+}
+
+#createbtn:hover {
+  background-color: rgb(249, 243, 243);
+}
+
+#createbtn{
+  background: url(../public/images/desktop-wallpaper-aesthetic-igaesthetic-emojis-emojiaesthetic-space-doodles-thumbnail.jpg);
+  background-size: cover;
+}
+
+
+
+
+#deletebtn:hover {
+  background-color: rgb(239, 13, 6);
+}
+
+#editbtn:hover {
+  background-color: green;
+}
+
+
+.items-list {
+  background: url(../public/images/cute-school-seamless-pattern-created-from-hand-drawn-doodles-on-white-background-wrapping-paper-textile-and-fabric-prints-wallpaper-stationery-scrapbook-etc-eps-10-vector.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 3px;
+
+
+}
+
+.to-do-item {
+  padding: 10px 0 10px 0;
+  margin: 1px 0 1px 0;
+  border-top: 1px solid darken(#dbde07, 20%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+  color: rgb(11, 10, 10);
+  font-weight: lighter;
+  user-select: none;
+  font-weight: bold;
+
+
+}
+
+.name {
+  margin-left: 10px;
+
+}
+
+input {
+  width: 350px;
+  color: #090909;
+  padding: 5px;
+  border: none;
+  border-radius: 1px;
+}
+
+.actions {
+  margin-right: 10px;
+
+}
+
+button {
+  padding: 7px;
+  border-radius: 2px;
+  border: none;
+  background: #FFB923;
+  background: #E5FF3D;
+  background: #333;
+  color: white;
+  font-weight: lighter;
+  box-shadow: 0 0 5px darken(#138796, 12%);
+}
